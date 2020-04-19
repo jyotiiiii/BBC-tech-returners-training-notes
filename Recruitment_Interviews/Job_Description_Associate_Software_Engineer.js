@@ -1,3 +1,5 @@
+/*
+
 Job Description - Associate Software Engineer
 
 Band: B
@@ -38,5 +40,3 @@ We’re happy to discuss flexible working. Please indicate your choice under the
 •	Excellent career progression – the BBC offers great opportunities for employees to seek new challenges and work in different areas of the organisation.
 •	Unrivalled training and development opportunities – our in-house Academy hosts a wide range of internal and external courses and certification.
 •	Benefits- We offer a competitive salary package, a flexible working week for work-life balance and 26 days holiday with the option to buy an extra 5 days, a defined pension scheme and discounted dental, health care, gym and much more.
-
-

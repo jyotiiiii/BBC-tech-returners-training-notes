@@ -1,3 +1,4 @@
+/*
 Databases
 
 Front end is the visuals of how your application looks. It can be a React app, so it’s a webpage with React running on it. It could be on a TV, it could be on your phone. It could even be Alexa, so it’s not visual, but it is how user receives the data. 
@@ -148,9 +149,3 @@ CREATE is insert
 RETRIEVE is select
 UPDATE is edit
 DELETE is delete
-
-
-
-
-
-

@@ -1,3 +1,5 @@
+/*
+
 React - Props, State and Events
 
 To utilise any one of these, you need to use all of them. 
@@ -38,12 +40,13 @@ PROPS AND PURE FUNCTIONS
 
 Props should always use Pure Functions that will always return the same data, the expected result. Below is an example of a pure function. 
 
-```
+*/
+
 function sum (a, b)  {
 return a + b;
 }
-```
 
+/*
 * Does not change the inputs
 * Always returns the exact same result for the same two inputs
 * React components act the same. 
@@ -51,7 +54,7 @@ You should never attempt to change your props. If in React, you put props in and
 
 PROPS IN CODE
 
-```
+*/
 class Welcome extends Component  {
 	render() {
 		return <h1>Hello, {this.props.propName}</h1>;
@@ -62,8 +65,8 @@ class Welcome extends Component  {
 <Welcome propName=‘Susan’ />
 <Welcome propName=‘Lisa’ />
 <Welcome propName=‘Stanley’ />
-```
 
+/*
 React says I’ll get the Welcome component, then render the H1 and then put in the propname. 
 
 propName is read only
@@ -96,10 +99,10 @@ INITIAL STATE
 
 Every component will have an initial state, a starting state. 
  
-// You’d want the initial state to be zero, i.e. if there are no tasks added yet, there are no tasks left to do. 
-// tasksRemaining is the key, 0 is the object
+You’d want the initial state to be zero, i.e. if there are no tasks added yet, there are no tasks left to do. 
+tasksRemaining is the key, 0 is the object
 
-``` 
+*/ 
 class TaskRemaining extends Component {
     constructor(props) {
         super(props);
@@ -120,7 +123,8 @@ class TaskRemaining extends Component {
         return <h2>You have {this.state.tasksRemaining} tasks left</h2>;
     }
 }
-```
+
+/*
 
 DOM EVENTS
 
@@ -156,7 +160,7 @@ HOW WE DO DOM EVENTS IN CODE:
 
 A React-specific example:
 
-```
+*/
 // In constructor
 this.onButtonClicked = this.onButtonClicked.bind(this);
 
@@ -171,7 +175,7 @@ onButtonClicked() {
  Click Me
 </button>
 
-```
+/*
 
 
 THE BIND CODE LOOKS WEIRD

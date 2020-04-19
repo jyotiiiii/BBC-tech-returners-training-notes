@@ -1,3 +1,4 @@
+/*
 React
 
 James has provided three Webinars and I have taken screenshots from each of them with the code etc. So look at those within BBC folder - week-005-react/James webinars and screenshots
@@ -86,8 +87,9 @@ Take a look at [Components and Props – React](https://reactjs.org/docs/compone
 - Components let you split the UI into independent, reusable pieces and think about each piece in isolation. 
 
 Can make changes in SVC i.e. in app.js and it does “hot reload” so you don’t need to keep refreshing your App, as you save your changes, it updates automatically. 
+*/
 
-Replace this: 
+// Replace this: 
 
 html
 import './App.css';
@@ -114,7 +116,7 @@ function App() {
 }
 
 
-with
+// with
 
 
 class App extends React.Component {
@@ -125,7 +127,7 @@ class App extends React.Component {
   }
 }
 
-
+/*
 You can only return one containing element. So it has to be within a div. 
 
 cmd+k and cmd+c to comment out
@@ -140,13 +142,15 @@ In public folder, create styles.css and paste all your styles in there. And then
 In our context, App is the parent and AddTask and Header are the children. 
 
 You can make a new file called DeveloperListing.js within the src directory. And in there you can paste in this function. 
-``` java
+*/
+java
 class Welcome extends React.Component {
   render() {
     return <h1>Hello, {this.props.name}</h1>;
   }
 }
-```
+
+/*
 And then you add DeveloperListing to App.js and it can appear in your local server.
 
 Component is a class
@@ -230,4 +234,3 @@ techreturners/bbc-cohort2-todo-app-frontend
 
 
 Array for the completed task and an array for tasks still to do - two arrays in two states
-

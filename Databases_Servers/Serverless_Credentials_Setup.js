@@ -1,3 +1,5 @@
+/*
+
 Serverless Credentials Setup: External Config / configuration variables for Serverless Databases
 
 Our app won't work withtou our usernames, passwords, connection strings etc, but we don't want those to be uploaded with our code to public servers or to our github accounts. 

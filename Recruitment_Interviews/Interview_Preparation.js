@@ -1,3 +1,5 @@
+/*
+
 Interview Preparation
 
 Application - Beckie will look over our answers to the three qeustions they ask. The block answers. Not the rest of the application form, which should be fine. Don't worry too much about this - we won't be falling at the application hurdle. 
@@ -99,9 +101,6 @@ Go through
 WHY have you done it?
 HOW did you do it? 
 WHAT impact did it have?
-
-
-
 
 
 PREPARING FOR INTERVIEW:

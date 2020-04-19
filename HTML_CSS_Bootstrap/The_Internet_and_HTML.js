@@ -1,3 +1,5 @@
+/*
+
 The Internet and HTML
 
 Homework is just creating your webpage, using only HTML. 

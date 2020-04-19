@@ -1,3 +1,4 @@
+/*
 What is CSS - week 3
 
 Cascading style sheets
@@ -22,7 +23,8 @@ Within the body of the HTML, you can write this:
 But iff you have many pages on your website, and  you want to change the font, you may have to do this hundreds of times. 
 
 2 PUT THE CSS IN STYLE TAGS IN THE HEAD
- <style></style> section in the <head>
+*/
+<style></style> section in the <head>
 
 <style>
 h1 {
@@ -30,7 +32,7 @@ h1 {
 }
 </style>
 
-
+/*
 3 Link to a separate CSS file in the <head> known at External CSS
 With an external stylesheet file, you can change the look of an entire website by changing just one file. 
 Open a new folder called style.css
@@ -52,22 +54,26 @@ Reduce the amount of info that has to be saved onto your computer. The CSS can b
 CSS Styntax
 
 A CSS rule set consists of a selector and a declaration block: 
-
+*/
 h1 { color:blue; font-size:12px }
+/*
 Selector is h1
 Declaration is within the curly braces
 color and font-size  is the property
 Blue and 12px  is the value
 
 ID and Class Selectors
+*/
 h2 id=“products_title”
-h2 
+/* 
 If it appears more than once on the page, use a Class i.e. receipt list style
 If it only appears once on the page, you can use an ID - i.e. the main page title. 
 Sometimes people only use Class, in case there might be an extra use further down the line. 
 
 In CSS, you use hashtag to reference the ID i.e. myHeading
-You use #myHeading {
+You use 
+*/
+#myHeading {
 color: red;
 }
 
@@ -81,7 +87,10 @@ li {
 color: orange;
 }
 
+/*
 <div> and <span>
+
+
 These are all DIVs - Header, Nav, Section, Footer - all these tags are new in HTML5 - aids screen readers for accessibility 
 Also useful for humans reading it through - Footer is your Footer. Nav is your navigation bar. 
 DIV stands for divider - means a block of content
@@ -95,7 +104,7 @@ DIV is a block level element so will fill the whole width of the screen left to 
 <span style=“background-color: red”>
 DIV is a block level element so will fill only the amount of space they need i.e. as wide as the text they contain</span>
 
-CENTREING
+CENTRING
 Don’t use center tags
 A coloured background DIV fills the screen, but the text isn’t centred. 
 
@@ -105,6 +114,7 @@ You can give your
 Order in Top Right Bottom Left so the autos are doing the centering 
 
 In CSS this would be 
+*/
 #cellStyle {
 background-colour: orange; 
 text-align: center; 
@@ -112,24 +122,24 @@ width: 100px;
 margin: 10px auto 10px auto;
 }
 
-PADDING 
-Cell padding - pads a thing out - gives space within the DIV block 
+// PADDING 
+// Cell padding - pads a thing out - gives space within the DIV block 
 #cellStyle {
 padding: 10px auto 10px auto;
 }
 
-FLOATS
-Whatever you want on the right, comes first in your HTML and then you float it right in the CSS
+// FLOATS
+// Whatever you want on the right, comes first in your HTML and then you float it right in the CSS
 #cellStyle {
 float: right;
 }
 
-TO GROUP SELECTOR IN CSS
-if you want to apply the same style to more than one style
+// TO GROUP SELECTOR IN CSS
+// if you want to apply the same style to more than one style
 h1, p {
   color: red;
 }
-
+/*
 SELECTOR PRECEDENCE:
 h1   then    ID   then    Class
 

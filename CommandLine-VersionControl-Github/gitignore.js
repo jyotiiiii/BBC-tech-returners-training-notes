@@ -1,3 +1,5 @@
+/*
+
 .gitignore
 
 .gitignore is telling git which files and folders you want it to NOT track. So don't add it and commit it. I want git to ignore it. 

@@ -1,35 +1,36 @@
-// JEST - testing your code
+/*
+JEST - testing your code
 
-// USING MATCHERS
+USING MATCHERS
 
-// [Using Matchers · Jest](https://jestjs.io/docs/en/using-matchers)
+[Using Matchers · Jest](https://jestjs.io/docs/en/using-matchers)
 
-// `toBe` uses Object.is to test exact equality. 
+`toBe` uses Object.is to test exact equality. 
 
-// If you want to check the value of an object, use `toEqual` instead
+If you want to check the value of an object, use `toEqual` instead
 
-// USING MATCHERS
+USING MATCHERS
 
-// Jest uses “matchers” to let you test values in different ways. This document will introduce some commonly used matchers. For the full list, see the
-//  [expect API doc](https://jestjs.io/docs/en/expect) 
+Jest uses “matchers” to let you test values in different ways. This document will introduce some commonly used matchers. For the full list, see the
+ [expect API doc](https://jestjs.io/docs/en/expect) 
 
-// COMMON MATCHERS
+COMMON MATCHERS
 
 The simplest way to test a value is with exact equality.
-
+*/
 test(‘two plus two is four’, () => {
   expect(2 + 2).toBe(4);
 });
 
+/*
+IN THIS CODE … 
 
-// IN THIS CODE … 
+expect(2 + 2)() returns an “expectation” object. You typically won’t do much with these expectation objects except call matchers on them.
 
-// expect(2 + 2)() returns an “expectation” object. You typically won’t do much with these expectation objects except call matchers on them.
+In this code, .toBe(4)() is the matcher. When Jest runs, it tracks all the failing matchers so that it can print out nice error messages for you.
 
-// In this code, .toBe(4)() is the matcher. When Jest runs, it tracks all the failing matchers so that it can print out nice error messages for you.
-
-// toBe() uses Object.is() to test exact equality. If you want to check the value of an object, use toEqual() instead:
-
+toBe() uses Object.is() to test exact equality. If you want to check the value of an object, use toEqual() instead:
+*/
 
 test(‘object assignment’, () => {
   const data = {one: 1};
@@ -51,18 +52,18 @@ test(‘adding positive numbers is not zero’, () => {
 });
 
 
+/*
+TRUTHINESS
 
-// TRUTHINESS
+In tests you sometimes need to distinguish between undefined, null, and false, but you sometimes do not want to treat these differently. Jest contains helpers that let you be explicit about what you want.
+- toBeNull() matches only null
+- toBeUndefined() matches only undefined
+- toBeDefined() is the opposite of toBeUndefined
+- toBeTruthy() matches anything that an if() statement treats as true
+- toBeFalsy() matches anything that an if() statement treats as false
 
-// In tests you sometimes need to distinguish between undefined, null, and false, but you sometimes do not want to treat these differently. Jest contains helpers that let you be explicit about what you want.
-// * toBeNull() matches only null
-// * toBeUndefined() matches only undefined
-// * toBeDefined() is the opposite of toBeUndefined
-// * toBeTruthy() matches anything that an if() statement treats as true
-// * toBeFalsy() matches anything that an if() statement treats as false
-
-// * FOR EXAMPLE: 
-
+FOR EXAMPLE: 
+*/
 
 test(‘null’, () => {
   **const** n = null;
@@ -168,13 +169,13 @@ expect(compileAndroidCode).toThrow(‘you are using the wrong JDK’);
   expect(compileAndroidCode).toThrow(/JDK/);
 });
 
+/*
+AND MORE
 
-// AND MORE
+This is just a taste. For a complete list of matchers, check out the  reference docs .
 
-// This is just a taste. For a complete list of matchers, check out the  reference docs .
+Once you’ve learned about the matchers that are available, a good next step is to check out how Jest lets you  test asynchronous code .
 
-// Once you’ve learned about the matchers that are available, a good next step is to check out how Jest lets you  test asynchronous code .
+[reference docs](https://jestjs.io/docs/en/expect)
 
-// [reference docs](https://jestjs.io/docs/en/expect)
-
-// [test asynchronous code](https://jestjs.io/docs/en/asynchronous)
+[test asynchronous code](https://jestjs.io/docs/en/asynchronous)

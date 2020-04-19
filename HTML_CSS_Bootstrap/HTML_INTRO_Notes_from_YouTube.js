@@ -1,3 +1,5 @@
+/*
+
 HTML INTRO - notes from YouTube 
 
 HTML Page Structure:
@@ -16,11 +18,15 @@ JS is a programming language that can be used to add interactivity to a website 
 JS is a client side language. 
 PHP is a popular server side language. 
 HTML 5 is quite forgiving in terms of uppercase, lowercase, a mix of both, how you close your tags. All of the following is legal code:
-```
+*/
+
 <IMG SRC="nice.jpg">
 <img src=nice.jpg />
 <iMg SrC=nice.jpg>
-```
+</IMG>
+
+/*
+
 
 Save as index.html 
 
@@ -85,11 +91,11 @@ It gives an alternate to the image, if necessary.
 
 CLICKABLE IMAGE - WITH A LINK
 Creates a hyperlink which is an image. 
-```
+*/
 		<a href=“http://google.com”>
 				<img src="images/piano.jpg" alt="Piano" />
 		</a>
-```
+/*
 
 <br> or <br />This is a break tag within a paragraph, text goes onto next line without having paragraph spacing. 
 
@@ -113,7 +119,9 @@ Divide the page up into sections. Think of them as invisible boxes that other th
 By default you won’t see them, but a DIV tag will create a line break before and after, so you can’t put things next to a DIV tag, only above or below (this can be changed in CSS). 
 You can nest DIV tags as much as you want. 
 Elements can’t be overlapping - you have to open and close other tags within the same DIV tag i.e. I couldn’t open a paragraph tag in one DIV and close it in another DIV. It would have to be opened and closed within the same DIV. But elements can go inside each other of course. 
-```
+
+*/
+
 <body>
 		<div id="header">
 				<h1>Welcome to my website</h1>
@@ -127,11 +135,14 @@ Elements can’t be overlapping - you have to open and close other tags within t
 		<div class="my-other-class">
 				Copyright &copy; 2019 RLF
 		</div>
-```
+</body>
 
-&copy; is for copyright symbol
-You can google HTML entities for more useful codes like that. 
 
+
+&copy; // is for copyright symbol
+// You can google HTML entities for more useful codes like that. 
+
+/*
 IDENTIFYING ELEMENTS I.E. for styling with CSS
 If you want CSS to style your page, you need to give the items attributes that can be recognised by CSS. You can do this in two ways. 
 
@@ -143,8 +154,7 @@ If you want to give attribute to more than one item, you can give them a class. 
 
 SPAN tag
 Similar to a DIV tag in that it creates logical groupings/sections on a page. But it won’t create a line break like a DIV tag does. 
-```
+*/
 Welcome to my <span class=“red”>cool</span>website! 
-```
+/*
 This won’t show in HTML, but it’s there to allow us to target the word ‘cool’ using our CSS. If we had used DIV tags, it would put the word ‘cool’ on its own line with paragraph spacing above and below. 
-

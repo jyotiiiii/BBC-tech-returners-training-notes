@@ -1,3 +1,5 @@
+/*
+
 Setting up a Database on AWS - James’ Webinar
 
 Sign up for an AWS account. 

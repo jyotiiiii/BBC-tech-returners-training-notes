@@ -14,3 +14,5 @@ function sayThanks(name){
 sayThanks('Cole');
 
 // outputs: Thank you for your purchase Cole! We appreciate your business.
+
+

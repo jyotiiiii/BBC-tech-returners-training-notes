@@ -1,3 +1,5 @@
+/*
+
 JS - DATA TYPES, OPERATORS AND FUNCTIONS
 
 READ THIS IN CONJUNCTION WITH JAMES’ PPT FROM DAY 2 OF IMMERSION WEEK
@@ -9,7 +11,7 @@ https://github.com/getify/You-Dont-Know-JS
 This is the first book in the series and definitely recommend
 [You Don’t Know JS: Up & Going: Amazon.co.uk: Kyle Simpson: 9781491924464: Books](https://www.amazon.co.uk/You-Dont-Know-JS-Going/dp/1491924462)
 
-repl.it - play with code on the screen before bringing it into Studio Visual Code. 
+repl.it - play with code on the screen before bringing it into Visual Studio Code. 
 
 [JavaScript Reserved Words](https://www.w3schools.com/js/js_reserved.asp)
 
@@ -18,12 +20,11 @@ This is how the language is constructed and arranged. i.e. the semicolons, brack
 The structure of statements in a computer language. 
 
 JAVASCRIPT SYNTAX
-
-```
+*/
 function add(a, b) {
 	return a+b;
 }
-```
+/*
 
 Function and Return are reserved keywords that tell JS you are about to do something important i.e. return some value. You can’t name your function ‘function’. Here is is named ‘add’. I could call it anything I like, this is up to me, I could call it Susan and the computer won’t mind, but the human reading it would like a clue about what it does. 
 
@@ -42,14 +43,14 @@ Once you add values to actually use the parameters (7, 3) they are called argume
 There could be more than two parameters - the comma is the key to separating the parameters. 
 [Slack](https://techreturners.slack.com/files/U7TQAT492/FQRTR5AEL/screenshot_2019-11-20_at_11.14.32.png)
 
-**P**ARAMETER → **P**LACEHOLDER (This means a placeholder belongs to the function naming and be used in the function body)
-**A**RGUMENT → **A**CTUAL VALUE (This means an actual value which is passed by the function calling)
+PARAMETER → PLACEHOLDER (This means a placeholder belongs to the function naming and be used in the function body)
+ARGUMENT → ACTUAL VALUE (This means an actual value which is passed by the function calling)
 
 Nowadays, ES6 uses a simpler syntax to do the same job as the code above 
 
-```
+*/
 add = (a, b) => a + b
-```
+/*
 
 This is still a function - the fat arrow tells the computer it is a function. 
 
@@ -59,12 +60,12 @@ COMMENTS
 
 These are purely for the human / the team. 
 To comment out a whole load of code, highlight everything at press cmd + /
-```
+
 // This is a comment. 
 /* This is for a 
 multi-line comment */
-```
 
+/*
 DATA TYPES
 
 Number
@@ -94,21 +95,20 @@ These are the new ways of declaring variables in ES6.
 This is the assignment operator
 
 CHANGING THE LET VARIABLE
+*/
+// You can’t do this: 
 
-You can’t do this: 
-```
 let age = 45;
 let age = 56;
-```
-Instead  you have write it like this:
-```
+
+// Instead  you have write it like this:
+
 let age = 45;
 age = 56;
-```
 
-EXAMPLE OF A LET VARIABLE
 
-```
+// EXAMPLE OF A LET VARIABLE
+
 let total = 99;
 
 function add(a, b) {
@@ -124,8 +124,8 @@ function subtract(a, b) {
 console.log(add(67, 3));
 console.log(subtract(5, 4));
 console.log(total);
-```
 
+/*
 Write your code with all the spaces and comments and function names and then you pass your code to a server to push it live. At this point, you want your website to run as quickly as possible for the user, so you can go through a couple of processes. 
 MINIFICATION - this takes out white space
 OBFUSCATION - this reduces function names from i.e. firsName to fN. This makes your code harder to understand for others, who might want to ‘borrow’ your code. 
@@ -133,5 +133,13 @@ You should test your code again after obfuscation to make sure the user experien
 
 OBJECTS are key value pairs
 
-Might use % to find odd or even - called MODULUS
+Might use % to find odd or even - called MODULUS - which finds the remainder or what is left over. 
 If it returns NOT then it’s an odd number. 
+
+
+Javascript Reserved Keywords
+https://www.w3schools.com/js/js_reserved.asp
+Data Types
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values
+Operators
+https://www.w3schools.com/jsref/jsref_operators.asp

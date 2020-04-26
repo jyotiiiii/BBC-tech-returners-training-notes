@@ -36,10 +36,10 @@ Write the solution in pseudocode first - this means writing in English not in co
 IF YOU’RE LOST, DON’T CODE 
 Read through and write down what you need to do
 Read through and write it down again
-Write the solution is pseudocode
+Write the solution in pseudocode
 Only then think about what code to use
 
 I TRIED … I FAILED
 Extract information from failure
 If the solution you tried didn’t work, write down what you learnt from that failing solution
-Use what you learnt in order to inform your next attempt
+Use what you learnt in order to inform your next attempt. 

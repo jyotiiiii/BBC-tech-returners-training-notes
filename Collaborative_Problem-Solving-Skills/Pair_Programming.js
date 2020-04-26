@@ -13,3 +13,7 @@ The navigator has the bigger picture in mind. Important not to be a backseat dri
 Software Engineering is 80% planning and questioning, 20% coding at the keyboard.
 
 LOOK AT JAMES’ POWERPOINT FOR DETAILS ON THIS
+
+James: 
+Great blog and video on remote pair programming
+https://www.remotetomato.com/blog/remote-pair-programming (edited) 

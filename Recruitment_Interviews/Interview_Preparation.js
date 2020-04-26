@@ -108,3 +108,40 @@ Be project driven, set yourself deadlines and tasks.
 Do the same again, start a new React App
 James will send us loads of KATAs on codewars, so keep those going on daily during the month wait. 
 James has another project he can send us to do in the interim. Takes concepts with React, hook into another API, can focus on it and James will give feedback. 
+
+
+
+------------
+
+
+
+On the Domain Expertise front
+The BBC will know that you wont have BBC problem domain knowledge. EG. You won’t have knowledge of the specific tech they use or processes to ensure that people can vote during strictly. In the context of interview I would assume that they mean domain knowledge within the context of the course.
+In practice, lets take DNS as example they would like to like to know that not only do you know what it is and how it works but also the reason it exists and why it has some of the features described in the course.
+Or another example - React and specifically components, not only to know that they exist, how you write them but also why that logical construct of a “component” exists IE. What problems it solves
+If you’ve ever come across the ShuHaRi scale - its demonstrating aspects of Shu and Ha
+https://martinfowler.com/bliki/ShuHaRi.html (edited) 
+
+
+
+
+James:school:  19:52
+I also sourced Sam’s thoughts on this and got the following to bits of detail for you:
+===
+Hi
+That’s a better answer than I could offer!
+I’ll have a go though......
+The clue as to what we are after is described in the Capabilities - “Learning the general domain the team is focused on. Basic level of relevant technology understanding.”
+This one is covered mostly within the “Technical Questions” part of the assessment - checking their level of “relevant technology understanding” that is we will ask them to questions about some of the technologies from the course why they exist and what they do or purpose is. In this context the domain is the information from the course and we are looking to see how well they have learned it.
+The one bit that is possibly an extension will be related to “Understand test driven engineering approaches and their benefits.”
+- this isn’t covered in the Technical Questions but is within the Programming Exercise.
+We won’t be asking them to write any tests but will be looking for them to explain how they would apply TDD concepts to some code.
+Thanks
+Sam
+
+
+He also followed up with:
+===
+Oh one more thing - for you to share.
+There is a good set of “test” questions ob BBC Bitseize under KS3 found here: https://www.bbc.co.uk/bitesize/guides/zts8d2p/revision/1
+They might want to have a look at, no need to do the learnings for each section but the test questions give a bit of a clue as to how our questions *might* look - they are not on there as an FYI but the style is similar. (edited) 

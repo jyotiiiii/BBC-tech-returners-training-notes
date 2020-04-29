@@ -43,8 +43,10 @@ INTEGRATION
 Blue - might be less pass/fail than the green one. Integration 
 
 ACCEPTANCE
-Yellow is testing by a computer - it can tell you if you click a button, something will happen. It can tell you if the purple is the wrong purple for the brand, but it can’t tell you if it looks crap. 
-The red at the top is probably humans doing it. Tends to be more subjective.  Trying to get software in front of people who are actually going to use it. In labs, people don’t use it how you’d use it day in/ day out. 
+Yellow is testing by a computer - it can tell you if you click a button, something will happen. It can tell you if the purple 
+is the wrong purple for the brand, but it can’t tell you if it looks crap. The red at the top is probably humans doing it. 
+Tends to be more subjective.  Trying to get software in front of people who are actually going to use it. In labs, 
+people don’t use it how you’d use it day in/ day out. 
 
 Good testers ask shedloads of questions and don’t assume anything. 
 
@@ -52,7 +54,8 @@ UNIT TESTS VX INTEGRATION TESTS
 
 Unit tests run very fast … get rest of stuff from James’ ppt
 
-Mocks - if you have code that gets code from database, don’t necessarily want you r database turned on, so you mock up data that is like your database and you use it for testing. There are mock databases around you can use. 
+Mocks - if you have code that gets code from database, don’t necessarily want you r database turned on, so you mock up 
+data that is like your database and you use it for testing. There are mock databases around you can use. 
 
 INTEGRATION TESTS
 
